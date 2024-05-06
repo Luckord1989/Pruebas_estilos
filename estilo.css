@@ -93,12 +93,17 @@ li:hover{
     a {
         font-size: 15px;
     }
+
+    .barra-movil{
+        display: flex;
+    }
         
 }
 
 @media only screen and (max-width: 768px){
     #header {
-        grid-template-columns: 3fr 1fr;
+        grid-template-columns: auto 30px;
+        gap: 5px;
     }
 
     .barra-movil{

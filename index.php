@@ -28,14 +28,7 @@
             </ul>
         </div>
     </div>
-    <div class="barra-movil">
-        <a href="">
-            <div class="sub-barra"></div>
-            <div class="sub-barra"></div>
-            <div class="sub-barra"></div>
-        </a>
-    </div>
-
+        
 </body>
 
 </html>
