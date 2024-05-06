@@ -27,18 +27,6 @@
                 <li><a href="">Contacto</a></li>
             </ul>
         </div>
-<<<<<<< HEAD
-    </div>  
-<<<<<<< HEAD
-    <!-- Sección -->
-    <div id="section">
-        <h1>Sub titulo</h1>
-    </div>
-=======
-           
-   
->>>>>>> c522bfbd57600549b1034c594d3f7d61b4e9977d
-=======
     </div>
     <div class="barra-movil">
         <a href="">
@@ -48,7 +36,6 @@
         </a>
     </div>
 
->>>>>>> dbf973b (Documentos laptop)
 </body>
 
 </html>
