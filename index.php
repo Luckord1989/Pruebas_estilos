@@ -7,18 +7,26 @@
 </head>
 <body>
     <div id="header">
-        <h1>Titulo principal</h1>   
+        <div id="titulo">
+            <h1>PHP SOLUCIONES</h1>   
+        </div>
         <div id="nav">
             <ul>
                 <li><a href="">Inicio</a></li>
                 <li><a href="">Nosotros</a></li>
+                <li><a href="">Catalogo</a></li>
                 <li><a href="">Contacto</a></li>
             </ul>
         </div>
     </div>  
+<<<<<<< HEAD
     <!-- Sección -->
     <div id="section">
         <h1>Sub titulo</h1>
     </div>
+=======
+           
+   
+>>>>>>> c522bfbd57600549b1034c594d3f7d61b4e9977d
 </body>
 </html>
