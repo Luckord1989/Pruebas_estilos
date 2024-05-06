@@ -4,7 +4,7 @@ body{
 }
 #header{
     width: 90%;
-    height: 150px;
+    height: 120px;
     display: grid;      
     grid-template-columns: 1fr;
     grid-template-rows: 2fr 1fr;
@@ -22,7 +22,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-height: 100px;
+    max-height: 80px;
     border-radius: 7.5px;
 }
 
@@ -34,7 +34,7 @@ body{
     text-transform: uppercase;
 }
 #nav{
-    height: 50px;
+    height: 40px;
     width: 100%;    
     display: grid;
     grid-template-columns: 1fr;
@@ -43,14 +43,14 @@ ul {
     list-style-type: none; 
     margin-top: 0px;
     padding-left: 0px;
-    height: 50px;
+    height: 40px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 7px;
 }
 
 li {
-    background-color: rgb(9, 9, 121);
+    background-color: #090979;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -60,33 +60,78 @@ li {
 }
 
 a {
-    color: #ffffff;
+    color: #f7f8f5;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 li:hover{
-    background-color: #1310cf;  
+    background-color: #090979;  
+    background: radial-gradient(circle,
+        #7096cc 0%, 
+        #2d43bd 25%,
+        #163a9b 60%,
+        #090979 80%,
+        #000000 100%);
     transform: scale(1.03); 
     font-weight: bold; 
-    box-shadow: 0px 4px 6px #353434be;
+    box-shadow: 0px 5px 7px #141414be;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
+    #header {
+        height: 40px;
+        grid-template-columns: 3fr 4fr;
+        grid-template-rows: 1fr;
+    }
+    
     #header h1{
-        transition: 0.4s;
-        font-size: 45px;
+        font-size: 15px;
     }
 
     a {
-        font-size: 20px;
-        transition: 0.4s;
+        font-size: 15px;
+    }
+        
+}
+
+@media only screen and (max-width: 768px){
+    #header {
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .barra-movil{
+        display: flex;
+    }
+
+    #nav {
+        display: none;
     }
 }
 
-#section{
-    background-color: aqua;
-    display: flex;
-    margin: 20px auto;
+.barra-movil{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    background-color: #090979;
+    border-radius: 5px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.barra-movil a {
+    width: 22px;
+    height: 18px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 3px;
+}
+
+.sub-barra{
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+
