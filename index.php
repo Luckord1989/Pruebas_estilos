@@ -16,7 +16,7 @@
             </ul>
         </div>
     </div>  
-           
+    <!-- Sección -->
     <div id="section">
         <h1>Sub titulo</h1>
     </div>
