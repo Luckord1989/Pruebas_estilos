@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <title>Document</title>
+    <title>Prueba</title>
 </head>
 
-<body>
-    
+<body>    
     <div class="nav">
         <ul class="list">
             <div class="list__item">
@@ -17,21 +16,19 @@
                     <a href="#" class="nav__link">Inicio</a>
                 </li>
             </div>
-
             <div class="list__item">
                 <li class="list__button">
                     <img src="icons/complemento.svg" alt="" class="list__icon">
                     <a href="#" class="nav__link">Nosotros</a>
                 </li>
             </div>
-
-            <div class="list__item">
-                <li class="list__button">
+            <div class="list__item list__item--click">
+                <li class="list__button list__button--click">
                     <img src="icons/servicio.svg" alt="" class="list__icon">
                     <a href="#" class="nav__link">Servicios</a>
-                    <img src="icons/arrow.svg" alt="" class="arrow">
+                    <img src="icons/arrow.svg" alt="" class="list__arrow">
                 </li>
-                <ul class="list_show">
+                <ul class="list__show">
                     <li class="list__inside">
                         <a href="" class="nav__link nav__link--inside">Servicio</a>
                     </li>
@@ -43,17 +40,13 @@
                     </li>
                 </ul>
             </div>
-
-            <div class="list__item">
-                <li class="list__button">
+            <div class="list__item list__item--click">
+                <li class="list__button list__button--click">
                     <img src="icons/contacto.svg" alt="" class="list__icon">
                     <a href="#" class="nav__link">Contanto</a>
-                    <img src="icons/arrow.svg" alt="" class="arrow">
+                    <img src="icons/arrow.svg" alt="" class="list__arrow">
                 </li>
-                <ul class="list_show">
-                    <li class="list__inside">
-                        <a href="" class="nav__link nav__link--inside">Contacto</a>
-                    </li>
+                <ul class="list__show">
                     <li class="list__inside">
                         <a href="" class="nav__link nav__link--inside">Contacto</a>
                     </li>
@@ -61,12 +54,9 @@
                         <a href="" class="nav__link nav__link--inside">Contacto</a>
                     </li>
                 </ul>
-            </div>
-
-           
+            </div>           
         </ul>
-    </div>
-        
+    </div>        
 </body>
 
 </html>
