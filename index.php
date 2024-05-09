@@ -8,25 +8,63 @@
 </head>
 
 <body>
-    <div id="header">
-        <div id="titulo">
-            <h1>PHP SOLUCIONES</h1>
-        </div>
-        <div class="barra-movil">
-            <a href="">
-                <div class="sub-barra"></div>
-                <div class="sub-barra"></div>
-                <div class="sub-barra"></div>
-            </a>
-        </div>
-        <div id="nav">
-            <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Nosotros</a></li>
-                <li><a href="">Catalogo</a></li>
-                <li><a href="">Contacto</a></li>
-            </ul>
-        </div>
+    
+    <div class="nav">
+        <ul class="list">
+            <div class="list__item">
+                <li class="list__button">
+                    <img src="icons/menu.svg" alt="" class="list__icon">
+                    <a href="#" class="nav__link">Inicio</a>
+                </li>
+            </div>
+
+            <div class="list__item">
+                <li class="list__button">
+                    <img src="icons/complemento.svg" alt="" class="list__icon">
+                    <a href="#" class="nav__link">Nosotros</a>
+                </li>
+            </div>
+
+            <div class="list__item">
+                <li class="list__button">
+                    <img src="icons/servicio.svg" alt="" class="list__icon">
+                    <a href="#" class="nav__link">Servicios</a>
+                    <img src="icons/arrow.svg" alt="" class="arrow">
+                </li>
+                <ul class="list_show">
+                    <li class="list__inside">
+                        <a href="" class="nav__link nav__link--inside">Servicio</a>
+                    </li>
+                    <li class="list__inside">
+                        <a href="" class="nav__link nav__link--inside">Servicio</a>
+                    </li>
+                    <li class="list__inside">
+                        <a href="" class="nav__link nav__link--inside">Servicio</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list__item">
+                <li class="list__button">
+                    <img src="icons/contacto.svg" alt="" class="list__icon">
+                    <a href="#" class="nav__link">Contanto</a>
+                    <img src="icons/arrow.svg" alt="" class="arrow">
+                </li>
+                <ul class="list_show">
+                    <li class="list__inside">
+                        <a href="" class="nav__link nav__link--inside">Contacto</a>
+                    </li>
+                    <li class="list__inside">
+                        <a href="" class="nav__link nav__link--inside">Contacto</a>
+                    </li>
+                    <li class="list__inside">
+                        <a href="" class="nav__link nav__link--inside">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+
+           
+        </ul>
     </div>
         
 </body>
