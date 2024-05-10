@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-const media = window.matchMedia();
-if
-    alert(""+media);
-=======
-let listElements = document.querySelectorAll(".list__item--click");
+var listElements = document.querySelectorAll(".list__button--click");
 
 listElements.forEach(listElement => {
     listElement.addEventListener("click",()=>{
@@ -13,8 +8,12 @@ listElements.forEach(listElement => {
         let heigth = 0;
 
         let menu = listElement.nextElementSibling;
+        
+        if(menu.clientHeight == "0"){
+            heigth = menu.scrollHeight;
+        }
 
-        console.log(menu.scrollHeight);      
+        menu.style.heigth = `${heigth}px`;
+
     })
 });
->>>>>>> 481cf04d08171a50e55f306fa27d19475323fcb8
