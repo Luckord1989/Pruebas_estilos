@@ -1,19 +1,19 @@
-var listElements = document.querySelectorAll(".list__button--click");
+let listElements = document.querySelectorAll(".list__button--click");
 
 listElements.forEach(listElement => {
-    listElement.addEventListener("click",()=>{
+    listElement.addEventListener("click",function(){
 
         listElement.classList.toggle("arrow");
 
-        let heigth = 0;
+        let height = 0;
 
         let menu = listElement.nextElementSibling;
         
-        if(menu.clientHeight == "0"){
-            heigth = menu.scrollHeight;
+        if(menu.clientHeight == 0){
+            height = menu.scrollHeight;
         }
 
-        menu.style.heigth = `${heigth}px`;
+        menu.style.height = height + "px";
 
     })
 });

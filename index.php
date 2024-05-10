@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
     <title>Prueba</title>
-    <title>Document</title>
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
 
-<body>    
+<body>
     <div class="nav">
         <ul class="list">
             <div class="list__item">
@@ -18,7 +16,7 @@
                     <a href="#" class="nav__link">Inicio</a>
                 </li>
             </div>
-            
+
             <div class="list__item list__item--click">
                 <li class="list__button list__button--click">
                     <img src="icons/servicio.svg" alt="" class="list__icon">
@@ -60,9 +58,11 @@
                     </li>
                 </ul>
             </div>
-     
+
         </ul>
-    </div>   
-    <script src="efectos.js"></script>     
-<body>
+    </div>
+
+    <script src="efectos.js"></script>
+</body>
+
 </html>
