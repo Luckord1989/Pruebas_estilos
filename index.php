@@ -9,6 +9,9 @@
 
 <body>
     <div class="nav">
+        <div class="button">
+            <img src="icons/arrow.svg" alt="" class="button__icon">
+        </div>
         <ul class="list">
             <div class="list__item">
                 <li class="list__button">
@@ -46,7 +49,7 @@
             <div class="list__item list__item--click">
                 <li class="list__button list__button--click">
                     <img src="icons/servicio.svg" alt="" class="list__icon">
-                    <a href="#" class="nav__link">Servicios</a>
+                    <a href="#" class="nav__link">Contacto</a>
                     <img src="icons/arrow.svg" alt="" class="list__arrow">
                 </li>
                 <ul class="list__show">

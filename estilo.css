@@ -13,7 +13,12 @@ body{
 }
 
 .nav {
-    width: 300px;
+    width: 40px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
 }
 
 .nav__link{
@@ -29,16 +34,36 @@ body{
 }
 
 .nav__link--inside:hover{
-    background-color: #d2cbe8;
+    background-color: #bdb0e9;
+    color: #341234;
+}
+
+.button{
+    width: 100%;
+    height: 40px;
+    background-color: #ed2c2c;
+    border-radius: 0px 16px 0px 0px;
+    padding: 5px 5px;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+}
+
+.giro .button__icon{
+    transform: rotate(90deg);
+}
+
+.button__icon{
+    transition: transform .3s;
 }
 
 .list {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border-radius: 0px 16px 16px 0px;
+    border-radius: 0px 0px 16px 0px;
     background-color: #ffffff;
 }
 
@@ -48,6 +73,7 @@ body{
     text-align: center;
     overflow: hidden;
 }
+
 
 .list__item--click{
     cursor: pointer;
@@ -73,10 +99,13 @@ body{
 .list__show{
     width: 80%;
     margin-left: auto;
+    padding: 0px 2px;
     border-left: 2px solid #341234;
+    border-radius: 6px 0px 0px 6px;
     list-style: none;
-    transition: heigth .4s;
+    transition: heigth 1.5s;
     height: 0px;
+    background-color: #ffffff;
 }
 
 
