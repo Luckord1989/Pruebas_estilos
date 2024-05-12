@@ -10,7 +10,10 @@
 <body>
     <div class="nav">
         <div class="button">
-            <img src="icons/arrow.svg" alt="" class="button__icon">
+            <div class="button__title">
+                <h1>Web Solutions</h1>
+            </div>
+            <img src="icons/menu_principal.svg" alt="" class="button__icon">
         </div>
         <ul class="list">
             <div class="list__item">
@@ -63,6 +66,9 @@
             </div>
 
         </ul>
+    </div>
+    <div class="contenido">
+        <h1>Hola</h1>
     </div>
 
     <script src="efectos.js"></script>
