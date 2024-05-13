@@ -61,7 +61,7 @@ body{
     text-align: center;
     font-size: 12px;
     overflow: hidden;
-    
+    font-weight: lighter;
 }
 
 .giro .button__icon{

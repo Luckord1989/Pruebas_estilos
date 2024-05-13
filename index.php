@@ -11,7 +11,7 @@
     <div class="nav">
         <div class="button">
             <div class="button__title">
-                <h1>Web Solutions</h1>
+                <h1 class="titulo__menu">Web Solutions</h1>
             </div>
             <img src="icons/menu_principal.svg" alt="" class="button__icon">
         </div>
@@ -53,6 +53,22 @@
                 <li class="list__button list__button--click">
                     <img src="icons/servicio.svg" alt="" class="list__icon">
                     <a href="#" class="nav__link">Contacto</a>
+                    <img src="icons/arrow.svg" alt="" class="list__arrow">
+                </li>
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="" class="nav__link nav__link--inside">Servicio</a>
+                    </li>
+                    <li class="list__inside">
+                        <a href="" class="nav__link nav__link--inside">Servicio</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list__item list__item--click">
+                <li class="list__button list__button--click">
+                    <img src="icons/servicio.svg" alt="" class="list__icon">
+                    <a href="#" class="nav__link">Sedes</a>
                     <img src="icons/arrow.svg" alt="" class="list__arrow">
                 </li>
                 <ul class="list__show">
